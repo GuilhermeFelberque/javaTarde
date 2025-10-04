@@ -1,4 +1,4 @@
-package Atv13_Exercícios_de_Lógica_de_Programação_IF_ELSE;
+package Atv13_Exercícios_IF_ELSE;
 
 import java.util.Locale;
 import java.util.Scanner;
