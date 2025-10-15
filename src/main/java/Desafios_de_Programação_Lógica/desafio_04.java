@@ -25,7 +25,7 @@ public class desafio_04 {
                 valor -= 2;
                 notas2++;
             }
-            System.out.println("\nDistribuição de cédulas:");
+            System.out.println("Distribuição de cédulas:");
             System.out.println("Notas de 50: " + notas50);
             System.out.println("Notas de 10: " + notas10);
             System.out.println("Notas de 2 : " + notas2);
