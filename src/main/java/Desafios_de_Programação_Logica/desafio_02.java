@@ -1,4 +1,4 @@
-package Desafios_de_Programação_Lógica;
+package Desafios_de_Programação_Logica;
 
 import java.util.Locale;
 import java.util.Scanner;
