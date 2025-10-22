@@ -28,11 +28,11 @@ public class desafio_10 {
                 if (palpite <= limiteSuperior) limiteSuperior = palpite - 1;
             }
         }
-        System.out.println("\n🎉 Parabéns! Você acertou o número: " + numeroSecreto);
+        System.out.println("Parabéns! Você acertou o número: " + numeroSecreto);
         System.out.println("Número de tentativas: " + tentativas);
         int maxTentativasBinaria = (int) Math.ceil(Math.log(100) / Math.log(2));
         if (tentativas <= maxTentativasBinaria) {
-            System.out.println("Você se aproximou da lógica de Busca Binária! 🟢");
+            System.out.println("Você se aproximou da lógica de Busca Binária! ");
         } else {
             System.out.println("Sua tentativa foi ineficiente. Tente usar a lógica de meio do intervalo. ");
         }
