@@ -1,14 +1,14 @@
-package Atv17_modularização_Classes_Estáticas;
+package Atv17_modularizacao_Classes_Estaticas;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exercicio_10 {
+public class exercicio_30 {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite a temperatura: ");
+        System.out.println("Digite a temperatura do data center: ");
         int temperatura = sc.nextInt();
         String resultado = max(temperatura);
         System.out.println(resultado);
@@ -19,12 +19,12 @@ public class exercicio_10 {
     public static String max(int temperatura) {
         String acao;
 
-        if (temperatura < 0) {
-            acao = "Alerta de congelamento ";
-        } else if (temperatura <= 40) {
-            acao = "Temperatura normal";
+        if (temperatura > 80) {
+            acao = "Desligar serviodres";
+        } else if (temperatura >= 60) {
+            acao = "Resfriamneto extra";
         } else {
-            acao = "Alerta de superaquecimento ";
+            acao = "Normal";
         }
         return acao;
     }

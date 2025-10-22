@@ -1,4 +1,4 @@
-package Atv17_modularização_Classes_Estáticas;
+package Atv17_modularizacao_Classes_Estaticas;
 
 import java.util.Locale;
 import java.util.Scanner;
